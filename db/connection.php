@@ -4,7 +4,7 @@
 	 $pass="";
 	 $database="lomba";
 	 $mysqli = new mysqli($host,$user,$pass,$database);
-	 $connection = mysqli_connect("localhost","root","","lomba");
+	 $connection = mysqli_connect("localhost","root","","");
 	 if (mysqli_connect_errno()) 
 	 {
 	   trigger_error('Koneksi ke database gagal: '  . mysqli_connect_error(), E_USER_ERROR); 
